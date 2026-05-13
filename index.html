@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>PC Solidário</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- FUNDO -->
+    <div class="grid-bg"></div>
+
+    <!-- MENU -->
+    <header class="navbar">
+      <div class="logo">PC Solidário</div>
+
+      <nav>
+        <ul class="nav-links">
+          <li>
+            <a href="#sobre">Sobre o Projeto</a>
+          </li>
+
+          <li>
+            <a href="#sobre">Quem Somos</a>
+          </li>
+
+          <li>
+            <a href="#funciona">Como Funciona</a>
+          </li>
+
+          <li>
+            <a href="#formulario">Formulário de Doação</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content hidden">
+        <!-- LOGO -->
+        <img src="logo.png" alt="Logo PC Solidário" class="hero-logo" />
+
+        <h1>
+          PC Solidário:<br />
+          Tecnologia que Conecta e Ajuda
+        </h1>
+
+        <p>
+          Dê uma nova vida para peças de computadores e ajude pessoas que
+          precisam de acesso à tecnologia.
+        </p>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="about" id="sobre">
+      <div class="container">
+        <div class="about-box glass hidden">
+          <h2 class="section-title">Sobre o Projeto</h2>
+
+          <p>
+            O objetivo deste projeto é beneficiar ONGs e entidades ou projetos que não têm acesso a equipamentos de hardware (Computadores). Buscamos promover a inclusão digital e a sustentabilidade socioambiental por meio da coleta de "lixo eletrônico", recuperação e reutilização de equipamentos de informática descartados, transformando-os em computadores funcionais destinados a projetos sociai
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="sobre">
+      <div class="container">
+        <div class="about-box glass hidden">
+          <h2 class="section-title">Quem Somos</h2>
+
+          <p>
+            Somos alunos da turma Técnico em Informática do Senac NEP Barcarena do ano de 2026. O projeto PC SOLIDÁRIO tem como objetivo impactar positivamente a rotina de parceiros cujo acesso a tecnologias seja escasso. Mantemos um foco claro em responsabilidade social e ambiental, atuando como parceiro do meio ambiente e promovendo a inclusão social, sustentabilidade e parcerias.  
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section id="funciona">
+      <div class="container">
+        <h2 class="section-title center">Como Funciona</h2>
+
+        <div class="steps">
+          <!-- CARD 1 -->
+          <div class="card glass hidden">
+            <i class="fa-solid fa-microchip"></i>
+
+            <h3>Separe suas peças</h3>
+
+            <p>
+              Escolha peças, periféricos ou computadores que você não utiliza
+              mais.
+            </p>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="card glass hidden">
+            <i class="fa-solid fa-list-check"></i>
+
+            <h3>Preencha o formulário</h3>
+
+            <p>
+              Informe seus dados e descreva os componentes disponíveis para
+              doação.
+            </p>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="card glass hidden">
+            <i class="fa-solid fa-box"></i>
+
+            <h3>Nós retiramos ou você envia</h3>
+
+            <p>
+              Organizamos a coleta ou você pode enviar os equipamentos para nós.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULÁRIO -->
+    <section class="form-section" id="formulario">
+
+      <div class="form-container glass hidden">
+
+        <h2 class="section-title center">Formulário de Doação</h2>
+
+        <form id="donationForm">
+
+          <input type="text" id="nome" placeholder="Nome Completo" required />
+
+          <input type="email" id="email" placeholder="E-mail" required />
+
+          <input type="text" id="telefone"placeholder="Telefone / WhatsApp" required/>
+
+          <textarea id="pecas" placeholder="Peças de PC" required></textarea>
+
+          <textarea id="obs" placeholder="Observação"></textarea>
+
+          <button type="submit" class="btn">Enviar Doação</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-content">
+        <h3>PC Solidário</h3>
+
+        <p>Tecnologia que transforma vidas através da solidariedade.</p>
+
+        <div class="footer-contacts">
+          <!-- E-mail -->
+          <a href="mailto:contato@pcsolidario.com">
+            <i class="fa-solid fa-envelope"></i>
+            projeto.pcsolidario.senac@gmail.com
+          </a>
+
+          <!-- WhatsApp -->
+          <a href="https://wa.me/5591999999999" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+            (91) 99999-9999
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://instagram.com/pcsolidario" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+            @projeto.pcsolidario.2026
+          </a>
+        </div>
+
+        <span class="copyright">
+          © 2026 PC Solidário - Todos os direitos reservados.
+        </span>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
